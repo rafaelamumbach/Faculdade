@@ -8,7 +8,7 @@
 
 int main() {
     int numFuncionario;
-    float salarioAtual, valorINT, indiceProd, aumento, novoSalario;
+    float salarioAtual, valorINT, indice, aumento, novoSalario, porcINT;
 
     printf("/* -- Calculo de Novo Salario! -- */\n");
     printf("Numero do VENDEDOR: ");
@@ -21,14 +21,16 @@ int main() {
     scanf("%f", &valorINT);
 
     printf("Informe o indice de produtividade (R$): ");
-    scanf("%f", &valorINT);
+    scanf("%f", &indice);
 
-    aumento = 0.8 * valorINT + indiceProd;
-    novoSalario = salarioAtual + (salarioAtual * aumento);
+    porcINT = valorINT * 0.8;
+    aumento = porcINT + indice;
+    novoSalario = salarioAtual + aumento;
 
-    printf("\nNumero do funcionario: %d\n", numFuncionario);
-    printf("Aumento salarial: %.2f%%\n", aumento * 100);
-    printf("Novo salario: R$ %.2f\n", novoSalario);
+    printf("\n-> Numero do funcionario:    %d\n", numFuncionario);
+    printf("-> Aumento salarial:    R$ %.2f\n", aumento);
+    printf("-> Novo salario:     R$ %.2f\n", novoSalario);
 
     return 0;
+
 }
