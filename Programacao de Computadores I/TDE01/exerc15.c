@@ -13,7 +13,6 @@ int main() {
     scanf("%d%d", &x1, &y1);
     printf("Insira as coordenadas P2(x2)(y2): ");
     scanf("%d%d", &x2, &y2);
-
     
     d = sqrt(pow(x2-x1, 2) + pow(y2-y1, 2));
 
