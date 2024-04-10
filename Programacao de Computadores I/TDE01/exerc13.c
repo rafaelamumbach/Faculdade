@@ -7,7 +7,6 @@
 #include <stdio.h>
 
 int main() {
-
     int num_vendedor, num_carros;
     float val_carro, sal_fixo, comissao_fixa, sal_total;
 

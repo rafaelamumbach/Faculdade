@@ -8,7 +8,6 @@
 #include <math.h>
 
 int main(){
-    
     int expoente = 2;
     float pi = 3.14;    
     float a, b, c;

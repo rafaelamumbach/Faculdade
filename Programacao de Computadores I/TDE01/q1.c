@@ -7,7 +7,6 @@
 #include <stdio.h>
 
 int main() {
-
     int hora_entrada, min_entrada, seg_entrada;
     int hora_saida, min_saida, seg_saida;
     int tempo_permanencia_seg;
@@ -60,5 +59,4 @@ int main() {
     printf("Custo do estacionamento: R$ %.2f\n", valorEstacionamento);
 
     return 0;
-
 }

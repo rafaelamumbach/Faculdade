@@ -7,7 +7,6 @@
 #include <stdio.h>
 
 int main() {
-
     int numero_vendedor;
     float salario_fixo, total_vendas, percentual, salario_total;
 

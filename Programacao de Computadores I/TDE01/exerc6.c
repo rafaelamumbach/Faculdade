@@ -7,7 +7,6 @@
 #include <stdio.h>
 
 int main() {
-    
     float p, u, r;
     float termos, soma;
 

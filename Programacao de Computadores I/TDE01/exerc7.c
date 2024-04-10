@@ -7,7 +7,6 @@
 #include <stdio.h>
 
 int main (){
-
     int qtd1, qtd2;
     float valor1, valor2, perc_IPI, total_pecas, total_IPI, total_compra;
 

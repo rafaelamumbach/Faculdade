@@ -32,5 +32,4 @@ int main() {
     printf("-> Novo salario:     R$ %.2f\n", novoSalario);
 
     return 0;
-
 }

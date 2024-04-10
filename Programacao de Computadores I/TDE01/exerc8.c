@@ -8,7 +8,6 @@
 #include <math.h>
 
 int main (){
-
     float a, v, d, t = 30;
 
     printf("=> Insira a velocidade do aviao [m/s]: ");

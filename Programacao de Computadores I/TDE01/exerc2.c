@@ -6,7 +6,6 @@
 #include <stdio.h>
 
 int main(){
-    
     int numero_func, horas_trabalhadas, filhos_menores;
     float valor_hora, salario_familia, salario_filhos;
     float calculo_salario, salario_total;

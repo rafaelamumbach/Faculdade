@@ -7,7 +7,6 @@
 #include <stdio.h>
 
 int main(){
-
 	float val1, val2;
     printf("Digite dois valores: ");
     scanf("%f %f", &val1, &val2);

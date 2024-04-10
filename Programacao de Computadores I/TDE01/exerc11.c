@@ -8,7 +8,6 @@
 #include <math.h>
 
 int main() {
-
    float a, b, c, area_triangulo, s, calculo;
 
    printf("Informe a, b, c, respectivamente: ");
