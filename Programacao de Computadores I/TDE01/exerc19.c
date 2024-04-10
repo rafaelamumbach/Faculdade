@@ -1,7 +1,7 @@
 /* ---- TDE 01
    ---- Exercicio 19     
    ---- Rafaela Mumbach Buenos
-   ---- V02 - 10/04/2024
+   ---- V02 - 09/04/2024
 */
 
 #include <stdio.h>
