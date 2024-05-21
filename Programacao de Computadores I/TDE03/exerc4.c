@@ -7,9 +7,13 @@
 #include <stdio.h>   
 
 int main() {
+    int v[5];
+    int i;
+    for (i = 0; i < 5;i++){
+        v[i] = i;
+    }
 
-    
-    
-    return 0;
+    printf("%d", v[999]);
 
+    return 1;
 }
