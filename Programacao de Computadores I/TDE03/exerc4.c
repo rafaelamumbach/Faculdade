@@ -7,13 +7,19 @@
 #include <stdio.h>   
 
 int main() {
-    int v[5];
-    int i;
-    for (i = 0; i < 5;i++){
-        v[i] = i;
+    int i, x, y, cont=0, media;
+
+    printf("Informe o intervalo de numeros [x, y]: ");
+    scanf("%d%d", &x, &y);
+
+    printf("Numeros na sequencia [%d, %d]:\n", x, y);
+
+    for (i = x; i < y; i++) {
+        cont++;
+        printf("%d ", i);
     }
 
-    printf("%d", v[999]);
+    printf("\nHa %d numeros nessa sequencia.\n", cont);
 
-    return 1;
+    return 0;
 }
