@@ -9,7 +9,7 @@ int main() {
     int i = 0;
     int m, x, y, j;
     int contDiv;
-    unsigned long long fatorial;
+    int fatorial;
     int soma;
 
     printf("Informe um valor (m):");
@@ -41,7 +41,7 @@ int main() {
                 fatorial *= x;
             }
 
-            printf("\nFatorial de %d: %llu\n", m, fatorial);
+            printf("\nFatorial de %d: %d\n", m, fatorial);
 
         } else if (m % 2 != 0 && m > 12) {
             for (y = 1; y <= m; ++y) {
