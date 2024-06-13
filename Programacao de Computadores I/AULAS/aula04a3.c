@@ -1,5 +1,4 @@
 /* ---- Estruturas de Repeticao
-   ---- Exercicio 01   
    ---- Rafaela Mumbach Buenos
    ---- V01 - 13/06/2024
 */
