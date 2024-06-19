@@ -15,7 +15,7 @@ int main(){
     }
 
     printf("Vetor: [ ");
-
+ 
     for (i = 0; i < 8; i++){
         printf("%d ", val[i]);
     }
